@@ -3,7 +3,7 @@
 
 class Weather {
   constructor(city, state) {
-    this.apiKey = '';
+    this.apiKey = null;
     this.city = city;
     this.state = state;
     // this.units = units;
